@@ -1,0 +1,51 @@
+# Compilação C / C++
+*.o
+*.so
+*.a
+*.out
+*.exe
+*.dll
+
+# Compilação Go
+bin/
+*.exe
+
+# CMake
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+Makefile
+
+# Qt (UI)
+*.pro.user
+*.qmake.stash
+
+# Logs e lixo
+*.log
+*.tmp
+*.temp
+*.bak
+*.old
+
+# Python
+__pycache__/
+*.pyc
+
+# Shellcode e loaders compilados
+payloads/*/*.bin
+payloads/*/Bin/
+payloads/*/build/
+
+# Teamserver build
+teamserver/GA-Teamserver/bin/
+teamserver/GA-Teamserver/build/
+
+# Editor
+.vscode/
+.idea/
+*.swp
+
+# Mac / Windows lixo
+.DS_Store
+Thumbs.db
+
